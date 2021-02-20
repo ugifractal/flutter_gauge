@@ -91,7 +91,7 @@ class _FlutterGaugeState extends State<FlutterGauge> {
   void initState() {
     super.initState();
     Timer(Duration(milliseconds: 400), (){
-      eventObservable.add(widget.index);
+      //eventObservable.add(widget.index);
     });
   }
 
